@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>CalculatriceDeborah</title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<meta name="description" content="Mois JavaScript">
+	<meta name="keywords" content="html5;css3;javascript;nodejs;html;css">
+	<meta name="author" content="debo">
+	<meta name="creator" content="debo">
+	<meta name="published" content="astro">
+	<meta name="robots" content="noarchive">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grilleCedrick.css">
+</head>
+<body>
+	<div class="row contenu-au-centre tout-au-centre">
+		<div class="corpsCalc contenu-au-centre grid-sm-24 grid-tab-8 hauteur-contenu-c">
+			<div class="ecran">
+				<span class="astro row contenu-au-centre">minoush calc</span>
+				<input type="text" name="ecran" placeholder="0">
+				<span class="historique contenu-a-droite"></span>
+			</div>
+			<div class="touche row">
+				<!-- PREMIERE LIGNE -->
+				<button onclick="nettoyer()" class="grid-6"><span>CE</span></button>
+				<button onclick="supprimer()" class="grid-6"><span><-</span></button>
+				<button class="grid-6" onclick="saisirChiffre('%')"><span>%</span></button>
+				<button class="grid-6" onclick="saisirChiffre('+')"><span>+</span></button>
+				<!-- DEUXIEME LIGNE -->
+				<button class="grid-6" onclick="saisirChiffre(7)"><span>7</span></button>
+				<button class="grid-6" onclick="saisirChiffre(8)"><span>8</span></button>
+				<button class="grid-6" onclick="saisirChiffre(9)"><span>9</span></button>
+				<button class="grid-6" onclick="saisirChiffre('-')"><span>-</span></button>
+				<!-- TROISIEME LIGNE -->
+				<button class="grid-6" onclick="saisirChiffre(4)"><span>4</span></button>
+				<button class="grid-6" onclick="saisirChiffre(5)"><span>5</span></button>
+				<button class="grid-6" onclick="saisirChiffre(6)"><span>6</span></button>
+				<button class="grid-6" onclick="saisirChiffre('*')"><span>x</span></button>
+				<!-- QUATRIEME LIGNE -->
+				<button class="grid-6" onclick="saisirChiffre(1)"><span>1</span></button>
+				<button class="grid-6" onclick="saisirChiffre(2)"><span>2</span></button>
+				<button class="grid-6" onclick="saisirChiffre(3)"><span>3</span></button>
+				<button class="grid-6" onclick="saisirChiffre('/')"><span>/</span></button></button>
+				<!-- CINQUIEME LIGNE -->
+				<button class="grid-12 zero" onclick="saisirChiffre('0')"><span class="special">0</span></button>
+				<button class="grid-6" onclick="saisirChiffre('.')"><span>,</span></button>
+				<button class="grid-6" onclick="total()"><span>=</span></button></button>
+		</div>
+	</div>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="deborah.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+-----------------------------------------------------
+Nom : ahoua
+Prénoms : michelle deborah
+Contacts : 59 08 79 17
+Pseudo : minoush
+Module : JavaScript
+Projet : Calculatrice
+-----------------------------------------------------
+
+Lorsque je clique sur un chiffre ou une operation
+	-> Il s'ajoute à la suite des element contenu dans l'input
+
+lorsque je clique sur CE
+	-> Il nettoye tous le contenu de mon input
+
+Lorsque je clique sur x
+	-> Il s'ajoute * en lieu et place de la lettre x
+
+Lorsque je clique sur ,
+	-> Il s'ajoute . en lieu et place de la virgule
+
+Lorsque je clique sur =
+	-> Le contenu de l'ecran est retranscrire dans ma zone .historique
+	-> Mon ecran est reinitialiser avec pour valeur le resultat du precedent calcul

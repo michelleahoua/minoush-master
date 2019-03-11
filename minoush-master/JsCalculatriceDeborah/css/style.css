@@ -1,0 +1,84 @@
+body{
+	background-color: #6dc7b2; 
+}
+button>span{
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: lighter;
+	/*transform: translate(45px,20px);*/
+}
+.corpsCalc{
+	border: 1px solid rgb(157,195,230);
+	height: 100vh;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.ecran{
+	width: 100%;
+	height:50%;
+	background-color: rgb(240,158,90);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.touche{
+	height:50%;
+}
+
+
+/**
+* POUR MOBILE
+**/
+@media (min-width: 320px){
+	.corpsCalc{
+		border:none;
+	}
+	button>span{
+		color:black;
+		font-size: 7rem;
+	}
+	input{
+	width: 100%;
+	height:50%;
+	border: none;
+	font-size: 15rem;
+	overflow-x: scroll;
+	text-align: right;
+	background-color: rgba(256,256,256,0.1);
+	}
+	span{
+		display: flex;
+		margin: auto;
+	}
+	.astro{
+		width: 100%;
+		height: 20%;
+		background-color: white;
+		font-size: 7rem;
+		font-weight: lighter;
+		text-transform: uppercase;
+		padding: 20px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		letter-spacing: 10px
+	}
+	.historique{
+		font-size: 5rem;
+		height:30%;
+		overflow-y: scroll;
+	}
+}
+@media (min-width: 768px){
+	button>span{
+		font-weight: lighter;
+		font-size: 2.5rem;
+	}
+	input{
+	font-size: 5rem;
+	}
+	.astro{
+		font-size: 1.5rem;
+	}
+	.historique{
+		font-size: 1.5rem;
+	}
+}
